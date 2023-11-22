@@ -33,7 +33,7 @@ const Navbar = () => {
             <Link to="/about">About US</Link>
           </li>
           <li>
-            <Link to="/">Product</Link>
+            <Link to="/products">Product</Link>
           </li>
           
           </ul>
@@ -62,7 +62,7 @@ const Navbar = () => {
             <Link to="/about">About US</Link>
           </li>
           <li>
-            <Link to="/">Product</Link>
+            <Link to="/products">Product</Link>
           </li>
           
            
@@ -71,7 +71,7 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         
-          <Link to="/">
+          <Link to="/contact">
             <button
               className="px-4 py-2 rounded-md
           text-white font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-blue-500 hover:to-cyan-400 ..."
