@@ -4,6 +4,7 @@ import Home from "../components/Home";
 import About from "../components/About";
 import ContactUs from "../components/ContactUs";
 import Products from "../components/Products";
+import SuccessStory from "../components/SuccessStory";
 
 
 
@@ -27,7 +28,11 @@ const router = createBrowserRouter([
         },
         {
           path: "/products",
-          element:<Products></Products>
+          element:<Products></Products>,
+        },
+        {
+          path: "/success",
+          element: <SuccessStory></SuccessStory>,
         },
         
       ],

@@ -1,9 +1,9 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
-    return (
-        <div className="navbar bg-base-100 sticky top-0 z-10">
+  return (
+    <div className="navbar bg-base-100 sticky top-0 z-10">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,15 +27,17 @@ const Navbar = () => {
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52 font-semibold"
           >
             <li>
-            <Link to="/">Home</Link>
+              <Link to="/">Home</Link>
+            </li>
+            <li>
+              <Link to="/about">About US</Link>
+            </li>
+            <li>
+              <Link to="/products">Product</Link>
+            </li>
+            <li>
+            <Link to="/success">Success Stories</Link>
           </li>
-          <li>
-            <Link to="/about">About US</Link>
-          </li>
-          <li>
-            <Link to="/products">Product</Link>
-          </li>
-          
           </ul>
         </div>
         <div className="w-8 rounded-full mr-2 cursor-pointer">
@@ -46,7 +48,7 @@ const Navbar = () => {
         </div>
 
         <p className="font-bold text-2xl cursor-pointer">
-          Tazan 
+          Tazan
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">
             Gro
           </span>
@@ -64,25 +66,23 @@ const Navbar = () => {
           <li>
             <Link to="/products">Product</Link>
           </li>
-          
-           
-          
+          <li>
+            <Link to="/success">Success Stories</Link>
+          </li>
         </ul>
       </div>
       <div className="navbar-end">
-        
-          <Link to="/contact">
-            <button
-              className="px-4 py-2 rounded-md
+        <Link to="/contact">
+          <button
+            className="px-4 py-2 rounded-md
           text-white font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-blue-500 hover:to-cyan-400 ..."
-            >
-              Contact US
-            </button>
-          </Link>
-        
+          >
+            Contact US
+          </button>
+        </Link>
       </div>
     </div>
-      );
+  );
 };
 
 export default Navbar;
