@@ -42,21 +42,23 @@ const Navbar = () => {
         </div>
         <div className="w-8 rounded-full mr-2 cursor-pointer">
           <img
-            className="rounded-full"
-            src="/src/assets/images/tazan logo.jpg"
+            className="rounded-full w-full h-10"
+            src="/src/assets/images/TG-removebg-preview-cut.png"
           />
         </div>
 
         <p className="font-bold text-2xl cursor-pointer">
-          Tazan
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-500 to-blue-500">
-            Gro
+          Ta
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-lime-500 hover:from-lime-500 hover:to-green-700">
+          zanGro
           </span>
           up
         </p>
+        
+        {/* bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600 */}
       </div>
       <div className="navbar-center hidden lg:flex">
-        <ul className="font-bold menu menu-horizontal px-1">
+        <ul className="font-semibold menu menu-horizontal text-xl">
           <li>
             <Link to="/">Home</Link>
           </li>
@@ -75,7 +77,7 @@ const Navbar = () => {
         <Link to="/contact">
           <button
             className="px-4 py-2 rounded-md
-          text-white font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-blue-500 hover:to-cyan-400 ..."
+          text-black text-xl font-bold bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600  ..."
           >
             Contact US
           </button>

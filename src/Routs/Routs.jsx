@@ -5,6 +5,7 @@ import About from "../components/About";
 import ContactUs from "../components/ContactUs";
 import Products from "../components/Products";
 import SuccessStory from "../components/SuccessStory";
+import Error from "../components/Error";
 
 
 
@@ -12,7 +13,7 @@ const router = createBrowserRouter([
     {
       path: "/",
       element: <Main></Main>,
-    //   errorElement: <Error></Error>,
+      errorElement: <Error></Error>,
       children: [
         {
           path: "/",
