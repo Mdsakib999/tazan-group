@@ -30,10 +30,10 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/allToys">About US</Link>
+            <Link to="/about">About US</Link>
           </li>
           <li>
-            <Link to="/blog">Product</Link>
+            <Link to="/">Product</Link>
           </li>
           
           </ul>
@@ -59,10 +59,10 @@ const Navbar = () => {
             <Link to="/">Home</Link>
           </li>
           <li>
-            <Link to="/allToys">About US</Link>
+            <Link to="/about">About US</Link>
           </li>
           <li>
-            <Link to="/blog">Product</Link>
+            <Link to="/">Product</Link>
           </li>
           
            
@@ -71,12 +71,12 @@ const Navbar = () => {
       </div>
       <div className="navbar-end">
         
-          <Link to="/login">
+          <Link to="/">
             <button
               className="px-4 py-2 rounded-md
           text-white font-semibold bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-blue-500 hover:to-cyan-400 ..."
             >
-              Login
+              Contact US
             </button>
           </Link>
         
