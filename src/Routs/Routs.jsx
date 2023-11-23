@@ -6,6 +6,7 @@ import ContactUs from "../components/ContactUs";
 import Products from "../components/Products";
 import SuccessStory from "../components/SuccessStory";
 import Error from "../components/Error";
+import Blog from "../components/Blog";
 
 
 
@@ -30,6 +31,10 @@ const router = createBrowserRouter([
         {
           path: "/products",
           element:<Products></Products>,
+        },
+        {
+          path: "/blog",
+          element: <Blog></Blog>,
         },
         {
           path: "/success",

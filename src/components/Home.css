@@ -1,0 +1,26 @@
+.b{
+    border: 2px solid red;
+}
+
+
+/* In your CSS file or within a style tag */
+@keyframes gradientAnimation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
+  .gradient-text-animation {
+    background: linear-gradient(to right, #ec3636, #19ba5c);
+    background-size: 200% 100%;
+    color: transparent;
+    background-clip: text;
+    animation: gradientAnimation 5s linear infinite;
+  }
+  

@@ -50,15 +50,15 @@ const Navbar = () => {
           />
         </div>
 
-        <p className="font-bold text-2xl cursor-pointer">
+        <p className="font-bold text-2xl cursor-pointer group">
           Ta
-          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-lime-500 hover:from-lime-500 hover:to-green-700">
-          zanGro
+          <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-lime-500 group-hover:from-lime-500 group-hover:to-green-700">
+          zan Gro
           </span>
           up
         </p>
         
-        {/* bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600 */}
+        
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="font-semibold menu menu-horizontal text-xl">
