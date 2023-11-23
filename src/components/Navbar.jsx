@@ -50,7 +50,7 @@ const Navbar = () => {
           />
         </div>
 
-        <p className="font-bold text-2xl cursor-pointer group">
+        <p className="font-bold lg:text-2xl cursor-pointer group">
           Ta
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-700 to-lime-500 group-hover:from-lime-500 group-hover:to-green-700">
           zan Gro
@@ -82,8 +82,8 @@ const Navbar = () => {
       <div className="navbar-end">
         <Link to="/contact">
           <button
-            className="px-4 py-2 rounded-md
-          text-black text-xl font-bold bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600  ..."
+            className="px-3 lg:px-4 py-2 rounded-md
+          text-black lg:text-xl font-bold bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600  ..."
           >
             Contact US
           </button>
