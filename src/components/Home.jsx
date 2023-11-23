@@ -2,6 +2,7 @@ import React from "react";
 import animation from "../assets/131315-bot-robot.json";
 import Lottie from "lottie-react";
 import "./Home.css";
+import HomeTypingText from "./HomeTypingText";
 
 const Home = () => {
   return (
@@ -20,12 +21,21 @@ const Home = () => {
             Quality You Can Trust
           </p>
 
-
-
-          <p className="text-slate-500 hover:text-black text-lg">
-            
-          At Tazan Group, our commitment is rooted in the provision of top-tier agro medicine, catering specifically to the health and well-being of poultry, cattle, and aquatic life. As a leading agro medicine provider, we take pride in our mission to empower agriculture by offering premium solutions at prices that make a difference. At Tazan Group, we believe that access to superior agro medicine should not be a luxury but a fundamental right for every farmer.
+          <p className="text-slate-500 hover:text-black text-lg mb-3">
+            At Tazan Group, our commitment is rooted in the provision of
+            top-tier agro medicine, catering specifically to the health and
+            well-being of poultry, cattle, and aquatic life. As a leading agro
+            medicine provider, we take pride in our mission to empower
+            agriculture by offering premium solutions at prices that make a
+            difference. At Tazan Group, we believe that access to superior agro
+            medicine should not be a luxury but a fundamental right for every
+            farmer.
           </p>
+
+          {/* Typing text */}
+
+          <HomeTypingText></HomeTypingText>
+          {/* Typing text */}
         </div>
 
         <div>

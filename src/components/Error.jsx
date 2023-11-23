@@ -6,16 +6,19 @@ import Lottie from "lottie-react";
 const Error = () => {
   const { error, status } = useRouteError();
   return (
-    <div className="w-[50%] mx-auto ">
+    <div className="w-[50%] mx-auto">
         <Link to="/"><button
             className="px-4 py-2 border rounded-md
-            lg:ml-32
+            lg:ml-44
             lg:w-[50%]
+      
           text-white font-semibold bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600 mt-10 "
           >
             Back to Home
           </button></Link>
-      <div className="w-[90%]">
+
+          <p className="text-2xl text-red-600 font-semibold mt-5 text-center">This page is not available</p>
+      <div className="w-[70%] mx-auto">
         <Lottie animationData={errorAni} loop={true}></Lottie>
       </div>
       
