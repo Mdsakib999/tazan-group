@@ -38,6 +38,9 @@ const Navbar = () => {
             <li>
             <Link to="/success">Success Stories</Link>
           </li>
+            <li>
+            <Link to="/blog">Blog</Link>
+          </li>
           </ul>
         </div>
         <div className="w-8 rounded-full mr-2 cursor-pointer">
@@ -70,6 +73,9 @@ const Navbar = () => {
           </li>
           <li>
             <Link to="/success">Success Stories</Link>
+          </li>
+          <li>
+            <Link to="/blog">Blog</Link>
           </li>
         </ul>
       </div>
