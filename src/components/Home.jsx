@@ -33,8 +33,12 @@ const Home = () => {
           </p>
 
           {/* Typing text */}
+          <div className=" h-24 mb-4">
 
           <HomeTypingText></HomeTypingText>
+          </div>
+
+
           {/* Typing text */}
         </div>
 
