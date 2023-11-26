@@ -43,17 +43,18 @@ const Home = () => {
           {/* Typing text */}
 
           {/* Social icon */}
-          <div className="flex text-5xl w-[80%] mx-auto justify-around lg:justify-between lg:w-[35%] lg:mx-0">
+          <div className="flex text-5xl w-[80%] mx-auto justify-around lg:justify-between lg:w-[35%] lg:mx-0 mb-8">
 
-            <Link className="shadow-xl hover:text-blue-600 hover:tada" to="https://www.facebook.com/tazangroup.bd/" target="_blank">
+            <Link className="rounded-full shadow-xl hover:text-blue-600 hover:tada" to="https://www.facebook.com/tazangroup.bd/" target="_blank">
               <FaFacebook />
             </Link>
 
-            <Link className="shadow-xl hover:text-sky-600 hover:tada" to="https://www.linkedin.com/in/tazan-agro-ltd/?originalSubdomain=bd" target="_blank">
+            <Link className="rounded-full
+             shadow-xl hover:text-sky-600 hover:tada" to="https://www.linkedin.com/in/tazan-agro-ltd/?originalSubdomain=bd" target="_blank">
             <FaLinkedin />
             </Link>
 
-            <Link className="shadow-xl hover:text-red-600 hover:tada" to="https://www.youtube.com/@TazanGroup" target="_blank">
+            <Link className="rounded-full shadow-xl hover:text-red-600 bg-slate-100 hover:tada" to="https://www.youtube.com/@TazanGroup" target="_blank">
             <FaYoutube />
             </Link>
 
