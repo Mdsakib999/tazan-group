@@ -4,28 +4,26 @@ const Footer = () => {
   return (
     <footer className="footer p-10 bg-black text-white">
       <aside>
-        <img className="w-[120px]" src="/src/assets/images/TG-removebg-preview-cut.png" alt="Company logo" />
+        <img className="w-[100px]" src="/src/assets/images/TG-removebg-preview-cut.png" alt="Company logo" />
 
 
         <p>
-          ACME Industries Ltd.
+          Tazan Group Ltd.
           <br />
-          Providing reliable tech since 1992
+          Providing reliable Agro Medicine since 1992
         </p>
       </aside>
       <nav>
-        <header className="footer-title">Services</header>
-        <a className="link link-hover">Branding</a>
-        <a className="link link-hover">Design</a>
-        <a className="link link-hover">Marketing</a>
-        <a className="link link-hover">Advertisement</a>
+        <header className="footer-title">Business</header>
+        <a className="link link-hover">Poultry Medicines</a>
+        <a className="link link-hover">Agro Medicine </a>
+        <a className="link link-hover">Hatchery</a>
       </nav>
       <nav>
         <header className="footer-title">Company</header>
         <a className="link link-hover">About us</a>
         <a className="link link-hover">Contact</a>
-        <a className="link link-hover">Jobs</a>
-        <a className="link link-hover">Press kit</a>
+        <a className="link link-hover">Career</a>
       </nav>
       <nav>
         <header className="footer-title">Legal</header>
