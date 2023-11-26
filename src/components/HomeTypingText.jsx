@@ -7,7 +7,7 @@ const HomeTypingText = () => {
         <TypeAnimation
           sequence={[
             // Same substring at the start will only be typed out once, initially
-            '"Empowering Agriculture, Enriching Livestock, Your Gateway to Premium Agro Medicines at Affordable Prices! - Tazan Group"',
+            '"Empowering Agriculture & Livestock, Your Gateway to Premium Agro Medicines at Affordable Prices! - Tazan Group"',
             6000, 
             '"Nurture Your Livestock, Pioneering Affordable Excellence in Agro Medicine Solutions! - Tazan Group"',
             6000,

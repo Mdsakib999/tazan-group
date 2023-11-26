@@ -17,10 +17,39 @@
   }
   
   .gradient-text-animation {
-    background: linear-gradient(to right, #ec3636, #19ba5c);
+    background: linear-gradient(to right, #1d0ae8, #19ba5c);
     background-size: 200% 100%;
     color: transparent;
     background-clip: text;
     animation: gradientAnimation 5s linear infinite;
   }
   
+
+  /* Tada Animation */
+
+@keyframes tada {
+  from {
+    transform: scale3d(1, 1, 1);
+  }
+
+  10%, 20% {
+    transform: scale3d(0.9, 0.9, 0.9) rotate3d(0, 0, 1, -3deg);
+  }
+
+  30%, 50%, 70%, 90% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, 3deg);
+  }
+
+  40%, 60%, 80% {
+    transform: scale3d(1.1, 1.1, 1.1) rotate3d(0, 0, 1, -3deg);
+  }
+
+  to {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+/* Apply the tada class on hover */
+.hover\:tada:hover {
+  animation: tada 1s ease-in-out;
+}

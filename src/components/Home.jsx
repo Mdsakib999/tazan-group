@@ -3,6 +3,10 @@ import animation from "../assets/131315-bot-robot.json";
 import Lottie from "lottie-react";
 import "./Home.css";
 import HomeTypingText from "./HomeTypingText";
+import { FaFacebook } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
+import { FaYoutube } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -33,13 +37,28 @@ const Home = () => {
           </p>
 
           {/* Typing text */}
-          <div className=" h-24 mb-4">
-
-          <HomeTypingText></HomeTypingText>
+          <div className=" h-24 mb-16 lg:mb-0">
+            <HomeTypingText></HomeTypingText>
           </div>
-
-
           {/* Typing text */}
+
+          {/* Social icon */}
+          <div className="flex text-5xl w-[80%] mx-auto justify-around lg:justify-between lg:w-[35%] lg:mx-0">
+
+            <Link className="shadow-xl hover:text-blue-600 hover:tada" to="https://www.facebook.com/tazangroup.bd/" target="_blank">
+              <FaFacebook />
+            </Link>
+
+            <Link className="shadow-xl hover:text-sky-600 hover:tada" to="https://www.linkedin.com/in/tazan-agro-ltd/?originalSubdomain=bd" target="_blank">
+            <FaLinkedin />
+            </Link>
+
+            <Link className="shadow-xl hover:text-red-600 hover:tada" to="https://www.youtube.com/@TazanGroup" target="_blank">
+            <FaYoutube />
+            </Link>
+
+            
+          </div>
         </div>
 
         <div>
