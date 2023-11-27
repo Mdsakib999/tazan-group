@@ -1,5 +1,5 @@
 import React from "react";
-import animation from "../assets/131315-bot-robot.json";
+import animation from "../assets/Animation - 1701077262099.json";
 import Lottie from "lottie-react";
 import "./Home.css";
 import HomeTypingText from "./HomeTypingText";
@@ -7,6 +7,7 @@ import { FaFacebook } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
+import HomeCarousel from "./HomeCarousel";
 
 const Home = () => {
   return (
@@ -62,10 +63,13 @@ const Home = () => {
           </div>
         </div>
 
-        <div>
+        <div className="w-[100%] lg:w-[40%] ">
           <Lottie animationData={animation} loop={true}></Lottie>
         </div>
       </div>
+
+    {/* Other components of home */}
+    <HomeCarousel></HomeCarousel>
     </div>
   );
 };
