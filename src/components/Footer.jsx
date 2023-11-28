@@ -10,7 +10,7 @@ const Footer = () => {
         <p>
           Tazan Group Ltd.
           <br />
-          Providing reliable Agro Medicine since 1992
+          Providing reliable Agro Medicine since 1992.
         </p>
       </aside>
       <nav>
