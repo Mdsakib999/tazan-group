@@ -43,6 +43,8 @@ const Navbar = () => {
           </li>
           </ul>
         </div>
+        
+        <Link to="/" className="flex items-center">
         <div className="w-8 rounded-full mr-2 cursor-pointer">
           <img
             className="rounded-full w-full h-10"
@@ -57,6 +59,7 @@ const Navbar = () => {
           </span>
           up
         </p>
+        </Link>
         
         
       </div>

@@ -4,18 +4,18 @@ const HomeCarousel = () => {
   return (
     <div>
       {/* Counting box */}
-      <div className="bg-slate-100 py-10 flex justify-around">
-      <div className="w-[15%] text-center text-white text-3xl font-bold rounded-lg shadow-lg p-4 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
-        <h1>50+</h1>
-        <p>Customer</p>
+      <div className="bg-slate-100 py-16 flex justify-around">
+      <div className="w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg p-4 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
+      <h1 className="text-4xl mb-2">500+</h1>
+      <p className="text-lg">Customer</p>
       </div>
-      <div className="  text-center text-white text-3xl font-bold rounded-lg shadow-lg p-4 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
-        <h1>50+</h1>
-        <p>Product</p>
+      <div className="w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg p-4 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
+      <h1 className="text-4xl mb-2">50+</h1>
+      <p className="text-lg">Medicine Product</p>
       </div>
 
-       <div className="text-center text-white text-3xl font-bold rounded-lg shadow-lg p-6 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
-      <h1 className="text-4xl mb-2">50+</h1>
+       <div className="w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg p-6 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
+      <h1 className="text-4xl mb-2">30+</h1>
       <p className="text-lg">Imported Countries</p>
     </div>
 
