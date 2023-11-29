@@ -7,7 +7,7 @@ const HomeCarousel = () => {
       
 
       {/* Carousel—-*/}
-      <div className="w-[80%] mx-auto mt-3 mb-6">
+      <div className="w-[100%] mx-auto mt-3 mb-6">
       <div className="carousel rounded-md">
         <div id="slide1" className="carousel-item relative w-full">
           <img src="https://www.kalmbachfeeds.com/wp-content/uploads/2022/05/Kalmbach-Article-Blog-Header-5.3.22-1024x536.jpg  " className="w-full h-[200px] lg:h-[400px]" />
@@ -70,7 +70,7 @@ const HomeCarousel = () => {
       <p className="lg:text-xl text-lg">Happy Customers</p>
       </div>
       <div className="w-[80%] mx-auto lg:mx-0  lg:w-[18%] text-center text-white text-3xl font-bold rounded-lg shadow-lg py-6 bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">
-      <h1 className="text-6xl mb-2"><CountUp enableScrollSpy={true} end={50}></CountUp>+</h1>
+      <h1 className="text-6xl mb-2"><CountUp enableScrollSpy={true} end={37}></CountUp>+</h1>
       <p className="text-lg lg:text-2xl">Medicine Product</p>
       </div>
 
