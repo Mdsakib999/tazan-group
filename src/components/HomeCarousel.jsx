@@ -10,7 +10,7 @@ const HomeCarousel = () => {
       <div className="w-[100%] mx-auto mt-3 mb-6">
       <div className="carousel rounded-md">
         <div id="slide1" className="carousel-item relative w-full">
-          <img src="https://www.kalmbachfeeds.com/wp-content/uploads/2022/05/Kalmbach-Article-Blog-Header-5.3.22-1024x536.jpg  " className="w-full h-[200px] lg:h-[400px]" />
+          <img src="https://www.kalmbachfeeds.com/wp-content/uploads/2022/05/Kalmbach-Article-Blog-Header-5.3.22-1024x536.jpg  " className="w-full h-[200px] lg:h-[450px]" />
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide4" className="btn btn-circle">
               ❮
@@ -22,7 +22,7 @@ const HomeCarousel = () => {
         </div>
 
         <div id="slide2" className="carousel-item relative w-full">
-          <img src="https://proagri.co.za/wp-content/uploads/2021/11/layer-farming.jpg" className="w-full h-[200px] lg:h-[400px]" />
+          <img src="https://proagri.co.za/wp-content/uploads/2021/11/layer-farming.jpg" className="w-full h-[200px] lg:h-[450px]" />
           {/* <p>   https://i.ibb.co/P4XSVkq/Tg1.jpg</p> */}
           <div className="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
             <a href="#slide1" className="btn btn-circle">

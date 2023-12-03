@@ -9,6 +9,8 @@ import { FaYoutube } from "react-icons/fa";
 import { Link } from "react-router-dom";
 import HomeCarousel from "./HomeCarousel";
 import HomeProduct from "./HomeProduct";
+import CustomerFeedback from "./CustomerFeedback";
+
 
 const Home = () => {
   return (
@@ -75,6 +77,10 @@ const Home = () => {
 
     {/* Home product */}
     <HomeProduct></HomeProduct>
+
+
+    {/* Customer feedback */}
+    <CustomerFeedback></CustomerFeedback>
     </div>
   );
 };
