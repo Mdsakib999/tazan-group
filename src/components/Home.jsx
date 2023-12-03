@@ -10,6 +10,7 @@ import { Link } from "react-router-dom";
 import HomeCarousel from "./HomeCarousel";
 import HomeProduct from "./HomeProduct";
 import CustomerFeedback from "./CustomerFeedback";
+import Partner from "./Partner";
 
 
 const Home = () => {
@@ -77,6 +78,9 @@ const Home = () => {
 
     {/* Home product */}
     <HomeProduct></HomeProduct>
+
+    {/* Partner */}
+    <Partner></Partner>
 
 
     {/* Customer feedback */}

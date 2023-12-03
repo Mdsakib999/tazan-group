@@ -3,21 +3,21 @@ import React, { useEffect, useState } from "react";
 const CustomerFeedback = () => {
   const feedbackData = [
     {
-      text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Dolores, ducimus.`,
+      text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Dolores, ducimus. adipi sicing elit. Dolores, ducimus.`,
       name: "Abdul Hakim",
       title: "Feed Miller",
       image:
         "https://img.freepik.com/free-photo/awkward-smiling-man-feel-indecisive_176420-18009.jpg?w=996&t=st=1701583573~exp=1701584173~hmac=0034ab6010aedc19e1c2bb3f3a7a37b59c533313a7c7b89ad9c6e06b70c72ed1",
     },
     {
-      text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Sed nec ipsum enim.`,
+      text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Sed nec ipsum enim.  adipi sicing elit. Dolores, ducimus.`,
       name: "John Doe",
       title: "Hatchery Owner",
       image:
         "https://attractmorematches.com/wp-content/uploads/2023/10/Screenshot-2023-10-18-at-5.08.47-PM.png",
     },
     {
-      text: `"Lorem ipsum dolor sit amet consectetur adipi sicing elit. Nullam nec semper libero."`,
+      text: `Lorem ipsum dolor sit amet consectetur adipi sicing elit. Nullam nec semper libero.  adipi sicing elit. Dolores, ducimus.`,
       name: "Angelina",
       title: "Poultry Owner",
       image:
@@ -29,7 +29,6 @@ const CustomerFeedback = () => {
 
   useEffect(() => {
     const intervalId = setInterval(() => {
-      // Increment the feedback index in a circular manner
       setCurrentFeedbackIndex(
         (prevIndex) => (prevIndex + 1) % feedbackData.length
       );
@@ -54,11 +53,17 @@ const CustomerFeedback = () => {
       {/* Feedback */}
 
       <div>
-        <h1 className="w-[85%] lg:w-[60%] mx-auto px-7 py-4 lg:py-7 rounded-lg bg-zinc-50 shadow-md text-lg text-center">
-          <span className="text-5xl font-mono text-sky-700">"</span>
+        <div className="w-[85%] lg:w-[60%] mx-auto px-7 py-4 lg:py-7 rounded-lg bg-zinc-50 shadow-md text-lg text-center"> 
+        <span className="text-5xl font-mono text-sky-700">"</span>
+        <h1 className="mb-3">
           {currentFeedback.text}
-          <span className="text-5xl font-mono text-sky-700">"</span>
         </h1>
+        <span className="text-5xl font-mono text-sky-700">"</span>
+
+        </div>
+        
+
+        {/*  */}
 
         <div className=" flex items-center justify-center gap-x-4 my-4">
           <div className="w-[60px] h-[60px] rounded-full border-4 border-green-400">
@@ -70,8 +75,8 @@ const CustomerFeedback = () => {
           </div>
 
           <div className="my-5">
-            <p className="font-semibold">{currentFeedback.name}</p>
-            <p>{currentFeedback.title}</p>
+            <p className="font-bold">{currentFeedback.name}</p>
+            <p className="font-semibold">{currentFeedback.title}</p>
           </div>
         </div>
       </div>
