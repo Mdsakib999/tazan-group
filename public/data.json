@@ -1,0 +1,47 @@
+[
+    {
+      "image": "https://example.com/product1-image.jpg",
+      "productName": "Product One",
+      "description": "Description for Product One.",
+      "packing": "Box",
+      "dosage": "Take two tablets daily after meals",
+      "composition": "write product composition",
+      "indications": "write product indications",
+      "shelfLife": "36 months",
+      "price": "$29.99",
+      "type": "Medication",
+      "company": "XYZ Pharmaceuticals",
+      "country": "Canada",
+      "rating": 4.5
+    },
+    {
+      "image": "https://example.com/product2-image.jpg",
+      "productName": "Product Two",
+      "description": "Description for Product Two.",
+      "packing": "Packet",
+      "dosage": "Apply a small amount topically twice a day",
+      "composition": "write product composition",
+      "indications": "write product indications",
+      "shelfLife": "12 months",
+      "price": "$14.99",
+      "type": "Cream",
+      "company": "DEF Cosmetics",
+      "country": "United Kingdom",
+      "rating": 4.5
+    },
+    {
+      "image": "https://example.com/product3-image.jpg",
+      "productName": "Product Three",
+      "description": "Description for Product Three.",
+      "packing": "Bottle",
+      "dosage": "Mix one scoop with water or milk daily",
+      "composition": "write product composition",
+      "indications": "write product indications",
+      "shelfLife": "24 months",
+      "price": "$39.99",
+      "type": "Protein Powder",
+      "company": "GHI Nutrition",
+      "country": "Australia",
+      "rating": 4.5
+    }
+  ]
