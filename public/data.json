@@ -1,7 +1,7 @@
 [
     {
       "id": 1,
-      "image": "https://example.com/product1-image.jpg",
+      "image": "https://i.ibb.co/vC9RW0B/Poultry-meal.jpg",
       "productName": "Product One",
       "description": "Description for Product One.",
       "packing": "Box",
@@ -16,8 +16,8 @@
       "rating": 4.5
     },
     {
-      "id": 1,
-      "image": "https://example.com/product2-image.jpg",
+      "id": 2,
+      "image": "https://i.ibb.co/Zcr5LZK/Nufo-Egg-Shell.jpg",
       "productName": "Product Two",
       "description": "Description for Product Two.",
       "packing": "Packet",
@@ -32,8 +32,8 @@
       "rating": 4.5
     },
     {
-      "id": 1,
-      "image": "https://example.com/product3-image.jpg",
+      "id": 3,
+      "image": "https://i.ibb.co/qgjGrLd/Whats-App-Image-2023-11-21-at-11-05-45-c501f217.jpg",
       "productName": "Product Three",
       "description": "Description for Product Three.",
       "packing": "Bottle",
