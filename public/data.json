@@ -1,5 +1,6 @@
 [
     {
+      "id": 1,
       "image": "https://example.com/product1-image.jpg",
       "productName": "Product One",
       "description": "Description for Product One.",
@@ -15,6 +16,7 @@
       "rating": 4.5
     },
     {
+      "id": 1,
       "image": "https://example.com/product2-image.jpg",
       "productName": "Product Two",
       "description": "Description for Product Two.",
@@ -30,6 +32,7 @@
       "rating": 4.5
     },
     {
+      "id": 1,
       "image": "https://example.com/product3-image.jpg",
       "productName": "Product Three",
       "description": "Description for Product Three.",

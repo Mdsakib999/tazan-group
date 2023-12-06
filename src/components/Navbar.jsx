@@ -72,7 +72,8 @@ const Navbar = () => {
             <Link to="/about">About Us</Link>
           </li>
           <li>
-            <Link to="/products">Sister Concern</Link>
+            <Link to="/products">Product</Link> 
+            {/* Have to add sister */}
           </li>
           <li>
             <Link to="/success">Success Stories</Link>
@@ -88,7 +89,7 @@ const Navbar = () => {
             className="px-3 lg:px-4 py-2 rounded-md
           text-black lg:text-xl font-bold bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600  ..."
           >
-            Contact US
+            Contact Us
           </button>
         </Link>
       </div>
