@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Products = () => {
   const [products, setProducts] = useState([]);
@@ -12,7 +13,7 @@ const Products = () => {
   }, []);
   return (
     <div>
-      <div className="text-center mt-5 mb-5">
+      <div className="text-center mt-5">
         <h1 className="text-3xl lg:text-5xl font-bold">
           Our All Product
         </h1>
@@ -32,26 +33,30 @@ const Products = () => {
               />
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Name: {product.productName}</h2>
-              <div className="flex justify-between font-bold">
-                  <p>Available: </p>
-                  <p className="text-blue-600">{product.type}</p>
-                  <FaStar></FaStar><p> {product.rating}</p>
+              <h2 className="card-title font-semibold">{product.productName}</h2>
+              <div className=" flex justify-between font-bold">
+                  <p>Packing: {product.packing} </p>
+                  
+                  <div className="flex items-center gap-1">
+                  <FaStar className="text-orange-500"></FaStar><p> {product.rating}</p>
+                  </div>
               </div>
-              <div className="flex justify-between items-center gap-10 my-5">
-{/*                 
+              <p className="font-bold text-lg">Origin: <span className="text-blue-600 ">{product.country}</span></p>
+              <div className="flex justify-between items-center gap-10 mt-3 mb-5">
+                
                 <>
-                <Link to={`/toys/${_id}`}>
+                {/* {`/toys/${_id}`} */}
+                <Link to={`/productDetails/${product.id}`}>
                   <button
                     className="px-4 py-2 rounded-md
-                text-white font-semibold text-base bg-gradient-to-r from-cyan-400 to-blue-500 hover:from-blue-500 hover:to-cyan-400 ..."
+                text-black  font-bold text-base bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600 ..."
                   >
                     View Details
                   </button>
                 </Link>
                 </>
-*/}
-                <p className=" text-right text-2xl font-semibold">$ {product.price}</p>
+
+                <p className=" text-right text-xl font-semibold">Tk {product.price} /kg</p>
               </div>
             </div>
           </div>

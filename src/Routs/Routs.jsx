@@ -7,6 +7,7 @@ import Products from "../components/Products";
 import SuccessStory from "../components/SuccessStory";
 import Error from "../components/Error";
 import Blog from "../components/Blog";
+import ProductDetails from "../components/ProductDetails";
 
 
 
@@ -39,6 +40,10 @@ const router = createBrowserRouter([
         {
           path: "/success",
           element: <SuccessStory></SuccessStory>,
+        },
+        {
+          path: "/productDetails/:id",
+          element: <ProductDetails></ProductDetails>,
         },
         
       ],

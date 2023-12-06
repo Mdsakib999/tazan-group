@@ -10,6 +10,7 @@ import "swiper/css/navigation";
 import "./HomeProduct.css";
 
 import { EffectFlip, Pagination, Navigation } from "swiper/modules";
+import { Link } from "react-router-dom";
 
 const HomeProduct = () => {
   return (
@@ -38,10 +39,10 @@ const HomeProduct = () => {
             <p>Magico</p>
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-2.jpg" />
+            <img src="https://i.ibb.co/Zcr5LZK/Nufo-Egg-Shell.jpg" />
           </SwiperSlide>
           <SwiperSlide>
-            <img src="https://swiperjs.com/demos/images/nature-3.jpg" />
+            <img src="https://i.ibb.co/qgjGrLd/Whats-App-Image-2023-11-21-at-11-05-45-c501f217.jpg" />
           </SwiperSlide>
           <SwiperSlide>
             <img src="https://swiperjs.com/demos/images/nature-4.jpg" />
@@ -53,6 +54,17 @@ const HomeProduct = () => {
             <img src="https://swiperjs.com/demos/images/nature-6.jpg" />
           </SwiperSlide>
         </Swiper>
+      </div>
+
+      <div className=" lg:w-[15%] mx-auto">
+        <Link to="/products">
+          <button
+            className="px-3 lg:px-6 py-3 rounded-md
+          text-white lg:text-xl font-bold bg-gradient-to-r from-green-600 to-lime-300 hover:from-lime-300 hover:to-green-600  ..."
+          >
+            See All Product
+          </button>
+        </Link>
       </div>
     </div>
   );
