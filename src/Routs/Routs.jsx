@@ -44,6 +44,7 @@ const router = createBrowserRouter([
         {
           path: "/productDetails/:id",
           element: <ProductDetails></ProductDetails>,
+          // loader:({params} ) => fetch(`data.json/viewDetails/${params.id}`)
         },
         
       ],
