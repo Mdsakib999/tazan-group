@@ -53,7 +53,7 @@ const ProductDetails = () => {
               {products.rating}
             </p>
           </div>
-          <button class="group mt-6  border relative h-12 w-40 overflow-hidden rounded-lg font-bold bg-white text-lg shadow-md">
+          <button class="group mt-6  border relative h-12 w-40 overflow-hidden rounded-lg font-bold bg-slate-50 text-lg shadow-md">
             <div class="absolute inset-0 w-3 bg-gradient-to-r from-green-600 to-lime-300 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span class="relative text-black group-hover:text-white">
               Order Now 
@@ -62,8 +62,8 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <div>
-        <p>Description</p>
+      <div className="bg-slate-100 py-4 px-2 mb-20 rounded-md shadow-md">
+        <p className="px-2 py-2 rounded-md bg-white lg:text-xl"><span className="font-semibold">Description:</span> {products.description}</p>
       </div>
     </div>
   );
