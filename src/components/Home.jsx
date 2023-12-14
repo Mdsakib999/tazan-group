@@ -11,6 +11,7 @@ import HomeCarousel from "./HomeCarousel";
 import HomeProduct from "./HomeProduct";
 import CustomerFeedback from "./CustomerFeedback";
 import Partner from "./Partner";
+import Faq from "./Faq";
 
 
 const Home = () => {
@@ -85,6 +86,9 @@ const Home = () => {
 
     {/* Customer feedback */}
     <CustomerFeedback></CustomerFeedback>
+
+    {/* Faq section */}
+    <Faq></Faq>
     </div>
   );
 };
