@@ -14,8 +14,8 @@ const Faq = () => {
         </p>
       </div>
 
-      <div className="flex justify-center items-center">
-        <div className="w-[55%]">
+      <div className="lg:flex justify-center items-center">
+        <div className="w-[90%] mx-auto lg:mx-0 lg:w-[55%]">
           <div className="collapse collapse-plus bg-base-200 mb-1">
             <input type="radio" name="my-accordion-3" checked="checked" />
             <div className="collapse-title text-xl font-medium">
@@ -45,7 +45,7 @@ const Faq = () => {
           </div>
         </div>
 
-        <div className="w-[35%]">
+        <div className="w-[70%] mx-auto lg:mx-0 lg:w-[35%]">
           <img
             className="hover:tada"
             src="https://i.ibb.co/NtpRDqF/question-mark-faq-information-question-eeb65c2f76ecda3fcc359187d66ddf75.png"
