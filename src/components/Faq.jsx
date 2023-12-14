@@ -1,4 +1,5 @@
 import React from "react";
+import "./Home.css";
 
 const Faq = () => {
   return (
@@ -30,7 +31,7 @@ const Faq = () => {
               Our delivery system?
             </div>
             <div className="collapse-content">
-              <p className="bg-white px-2 py-2 rounded-md shadow">hello</p>
+              <p className="bg-white px-2 py-2 rounded-md shadow">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Facilis, corporis dolorum deserunt fugiat recusandae pariatur rerum placeat nemo explicabo libero fuga animi consequuntur at nam architecto esse molestias? Nulla, eaque!</p>
             </div>
           </div>
           <div className="collapse collapse-plus bg-base-200 mb-1">
@@ -46,7 +47,7 @@ const Faq = () => {
 
         <div className="w-[35%]">
           <img
-            className=""
+            className="hover:tada"
             src="https://i.ibb.co/NtpRDqF/question-mark-faq-information-question-eeb65c2f76ecda3fcc359187d66ddf75.png"
             alt="Question mark"
           />
