@@ -12,6 +12,7 @@ import HomeProduct from "./HomeProduct";
 import CustomerFeedback from "./CustomerFeedback";
 import Partner from "./Partner";
 import Faq from "./Faq";
+import ContactUs from "./ContactUs";
 
 
 const Home = () => {
@@ -89,6 +90,9 @@ const Home = () => {
 
     {/* Faq section */}
     <Faq></Faq>
+
+    {/* Contact section */}
+    <ContactUs></ContactUs>
     </div>
   );
 };
