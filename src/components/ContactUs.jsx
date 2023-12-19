@@ -2,6 +2,8 @@ import React from "react";
 import animation from "../assets/Animation - 1702966470394.json";
 import Lottie from "lottie-react";
 import { FaLocationDot } from "react-icons/fa6";
+import { MdEmail } from "react-icons/md";
+
 
 const ContactUs = () => {
   return (
@@ -74,17 +76,19 @@ const ContactUs = () => {
 
       {/* Address part */}
       <div className="flex flex-col md:flex-row items-center gap-7 lg:gap-0 justify-evenly my-10">
-        <div className="md:w-[35%] b">
+        <div className="md:w-[35%] ">
           <div className="text-3xl font-semibold mb-3">Head Office</div>
-          <FaLocationDot /> <p className="text-xl"> Hathazari Road, Baluchara</p>
+          <div className="flex items-center">
+          <FaLocationDot className="text-2xl"/> <p className="text-xl"> Hathazari Road, Baluchara</p>
+          </div>
           <p className="text-xl">Chittagong-4214, Bangladesh.</p>
           <p className="text-xl">Tel: 0088-031-682739</p>
           <p className="text-xl">E-mail: info@tazangroup.com</p>
 
-          <div className="text-3xl font-semibold mb-1 mt-6">Liaison Office</div>
-          <p className="text-xl">382, Tangi Diversion Road (4th floor)</p>
-          <p className="text-xl">Mogbazar, Dhaka-1212</p>
-          <p className="text-xl">E-mail: tazanagro@gmail.com</p>
+          <div className="text-3xl font-semibold mb-3 mt-6">Liaison Office</div>
+          <p className="text-xl"><span><FaLocationDot className="inline-block text-2xl"></FaLocationDot></span> 382, Tangi Diversion Road (4th floor)</p>
+          <p className="text-xl ml-7 mb-2">Mogbazar, Dhaka-1212</p>
+          <p className="text-xl"><span><MdEmail className="inline-block text-2xl"/></span> E-mail: tazanagro@gmail.com</p>
         </div>
 
         <div>
