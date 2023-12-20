@@ -1,7 +1,7 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
-import productData from "../assets/data.json"; 
+import productData from "../../public/data.json"; 
 
 const ProductDetails = () => {
   const { id } = useParams();

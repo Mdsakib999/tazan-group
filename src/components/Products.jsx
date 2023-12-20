@@ -9,7 +9,7 @@ const Products = () => {
     fetch("data.json")
       .then((res) => res.json())
       .then((data) => setProducts(data))
-      .catch((error) => console.error(error));
+      // .catch((error) => console.error(error));
   }, []);
   return (
     <div>
