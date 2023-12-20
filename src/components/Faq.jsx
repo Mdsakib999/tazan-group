@@ -37,10 +37,10 @@ const Faq = () => {
           <div className="collapse collapse-plus bg-base-200 mb-1">
             <input type="radio" name="my-accordion-3" />
             <div className="collapse-title text-xl font-medium">
-              Click to open this one and close others
+            Our return policy?
             </div>
             <div className="collapse-content">
-              <p className="bg-white px-2 py-2 rounded-md shadow">hello</p>
+              <p className="bg-white px-2 py-2 rounded-md shadow">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veritatis modi fuga impedit, animi esse omnis ullam molestias voluptates? Fuga, doloribus mollitia. Ducimus quas tempora ad assumenda, nam voluptatibus adipisci!</p>
             </div>
           </div>
         </div>
