@@ -14,7 +14,6 @@ import Partner from "./Partner";
 import Faq from "./Faq";
 import ContactUs from "./ContactUs";
 
-
 const Home = () => {
   return (
     <div>
@@ -51,21 +50,30 @@ const Home = () => {
 
           {/* Social icon */}
           <div className="flex text-5xl w-[80%] mx-auto justify-around lg:justify-between lg:w-[35%] lg:mx-0 mb-8">
-
-            <Link className="rounded-full shadow-xl text-blue-600 hover:tada" to="https://www.facebook.com/tazangroup.bd/" target="_blank">
+            <Link
+              className="rounded-full shadow-xl text-blue-600 hover:tada"
+              to="https://www.facebook.com/tazangroup.bd/"
+              target="_blank"
+            >
               <FaFacebook />
             </Link>
 
-            <Link className="rounded-full
-             shadow-xl text-sky-600 hover:tada" to="https://www.linkedin.com/in/tazan-agro-ltd/?originalSubdomain=bd" target="_blank">
-            <FaLinkedin />
+            <Link
+              className="rounded-full
+             shadow-xl text-sky-600 hover:tada"
+              to="https://www.linkedin.com/in/tazan-agro-ltd/?originalSubdomain=bd"
+              target="_blank"
+            >
+              <FaLinkedin />
             </Link>
 
-            <Link className="rounded-full shadow-xl text-red-600 bg-slate-100 hover:tada" to="https://www.youtube.com/@TazanGroup" target="_blank">
-            <FaYoutube />
+            <Link
+              className="rounded-full shadow-xl text-red-600 bg-slate-100 hover:tada"
+              to="https://www.youtube.com/@TazanGroup"
+              target="_blank"
+            >
+              <FaYoutube />
             </Link>
-
-            
           </div>
         </div>
 
@@ -74,25 +82,35 @@ const Home = () => {
         </div>
       </div>
 
-    {/* Other components of home */}
-    <HomeCarousel></HomeCarousel>
+      {/* Other components of home */}
+      <div>
+        <HomeCarousel></HomeCarousel>
+      </div>
 
+      {/* Home product */}
+      <div>
+        <HomeProduct></HomeProduct>
+      </div>
 
-    {/* Home product */}
-    <HomeProduct></HomeProduct>
+      {/* Partner */}
+      <div>
+        <Partner></Partner>
+      </div>
 
-    {/* Partner */}
-    <Partner></Partner>
+      {/* Customer feedback */}
+      <div>
+        <CustomerFeedback></CustomerFeedback>
+      </div>
 
+      {/* Faq section */}
+      <div>
+        <Faq></Faq>
+      </div>
 
-    {/* Customer feedback */}
-    <CustomerFeedback></CustomerFeedback>
-
-    {/* Faq section */}
-    <Faq></Faq>
-
-    {/* Contact section */}
-    <ContactUs></ContactUs>
+      {/* Contact section */}
+      <div>
+        <ContactUs></ContactUs>
+      </div>
     </div>
   );
 };
