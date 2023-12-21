@@ -1,5 +1,5 @@
 import React from "react";
-import animation from "../assets/Animation - 1701077262099.json";
+import animation from "../assets/Animation - 1701077946642.json";
 import Lottie from "lottie-react";
 import "./Home.css";
 import HomeTypingText from "./HomeTypingText";
@@ -77,7 +77,7 @@ const Home = () => {
           </div>
         </div>
 
-        <div className="w-[100%] lg:w-[40%] ">
+        <div className="w-[100%] lg:w-[30%] ">
           <Lottie animationData={animation} loop={true}></Lottie>
         </div>
       </div>
