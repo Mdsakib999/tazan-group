@@ -75,13 +75,76 @@ const ProductDetails = () => {
           <dialog id="my_modal_1" className="modal">
             <div className="modal-box">
               <h3 className="font-bold text-lg">Hello!</h3>
-              <p className="py-4">
-                Press ESC key or click the button below to close
-              </p>
+              
+              {/*  */}
+
+              <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-md shadow-md">
+                <form >
+                  <div className="mb-4">
+                    <label
+                      htmlFor="productName"
+                      className="block text-gray-700 font-bold mb-2"
+                    >
+                      Product Name
+                    </label>
+                    <input
+                      type="text"
+                      id="productName"
+                      className="w-full p-2 border rounded-md"
+                      // value={productName}
+                      // onChange={(e) => setProductName(e.target.value)}
+                      required
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label
+                      htmlFor="quantity"
+                      className="block text-gray-700 font-bold mb-2"
+                    >
+                      Quantity
+                    </label>
+                    <input
+                      type="number"
+                      id="quantity"
+                      className="w-full p-2 border rounded-md"
+                      required
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label
+                      htmlFor="quantity"
+                      className="block text-gray-700 font-bold mb-2"
+                    >
+                      Mobile Number
+                    </label>
+                    <input
+                      type="number"
+                      id="quantity"
+                      className="w-full p-2 border rounded-md"
+                      required
+                    />
+                  </div>
+                  <div className="mb-4">
+                    <label
+                      htmlFor="refinanceName"
+                      className="block text-gray-700 font-bold mb-2"
+                    >
+                      Reference
+                    </label>
+                    <input
+                      type="text"
+                      id="refinanceName"
+                      className="w-full p-2 border rounded-md"
+                    />
+                  </div>
+                  
+                </form>
+              </div>
+              {/*  */}
               <div className="modal-action">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
-                  <button className="btn">Submit</button>
+                  <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-700">Confirm Order</button>
                 </form>
               </div>
             </div>
@@ -90,7 +153,7 @@ const ProductDetails = () => {
         </div>
       </div>
 
-      <div className="bg-slate-100 py-4 px-2 mb-20 rounded-md shadow-md">
+      <div className="bg-slate-100 py-2 px-2 mb-20 rounded-md shadow-md">
         <p className="px-2 py-2 rounded-md bg-white lg:text-xl">
           <span className="font-semibold">Description:</span>{" "}
           {products.description}
