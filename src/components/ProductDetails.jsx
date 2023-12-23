@@ -158,7 +158,7 @@ const ProductDetails = () => {
                   {/* if there is a button in form, it will close the modal */}
                   <button
                     type="submit"
-                    className="px-3 py-1 rounded-full bg-black shadow-xl text-white hover:bg-slate-900 focus:outline-none focus:shadow-outline-blue font-bold hover:shadow-lg active:bg-green-500"
+                    className="px-3 py-1 rounded-full bg-slate-300 shadow-xl text-black hover:text-white border-2 hover:bg-slate-900 focus:outline-none focus:shadow-outline-blue font-bold active:bg-green-500"
                   >
                     X
                   </button>
