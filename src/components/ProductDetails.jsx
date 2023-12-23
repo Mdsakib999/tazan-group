@@ -1,7 +1,7 @@
 import React from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import { FaStar } from "react-icons/fa";
-import productData from "../../public/data.json"; 
+import productData from "../../public/data.json";
 
 const ProductDetails = () => {
   const { id } = useParams();
@@ -53,17 +53,48 @@ const ProductDetails = () => {
               {products.rating}
             </p>
           </div>
-          <button class="group mt-6  border relative h-12 w-40 overflow-hidden rounded-lg font-bold bg-slate-50 text-lg shadow-md">
+
+          {/* <button class="group mt-6  border relative h-12 w-40 overflow-hidden rounded-lg font-bold bg-slate-50 text-lg shadow-md">
             <div class="absolute inset-0 w-3 bg-gradient-to-r from-green-600 to-lime-300 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
             <span class="relative text-black group-hover:text-white">
-              Order Now 
+              Order Now
+            </span>
+          </button> */}
+
+          {/* MOdal Button */}
+          {/* Open the modal using document.getElementById('ID').showModal() method */}
+          <button
+            className="group mt-6  border relative h-12 w-40 overflow-hidden rounded-lg font-bold bg-slate-50 text-lg shadow-md"
+            onClick={() => document.getElementById("my_modal_1").showModal()}
+          >
+            <div class="absolute inset-0 w-3 bg-gradient-to-r from-green-600 to-lime-300 transition-all duration-[250ms] ease-out group-hover:w-full"></div>
+            <span class="relative text-black group-hover:text-white">
+              Order Now
             </span>
           </button>
+          <dialog id="my_modal_1" className="modal">
+            <div className="modal-box">
+              <h3 className="font-bold text-lg">Hello!</h3>
+              <p className="py-4">
+                Press ESC key or click the button below to close
+              </p>
+              <div className="modal-action">
+                <form method="dialog">
+                  {/* if there is a button in form, it will close the modal */}
+                  <button className="btn">Submit</button>
+                </form>
+              </div>
+            </div>
+          </dialog>
+          {/*  */}
         </div>
       </div>
 
       <div className="bg-slate-100 py-4 px-2 mb-20 rounded-md shadow-md">
-        <p className="px-2 py-2 rounded-md bg-white lg:text-xl"><span className="font-semibold">Description:</span> {products.description}</p>
+        <p className="px-2 py-2 rounded-md bg-white lg:text-xl">
+          <span className="font-semibold">Description:</span>{" "}
+          {products.description}
+        </p>
       </div>
     </div>
   );
