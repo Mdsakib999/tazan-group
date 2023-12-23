@@ -74,12 +74,14 @@ const ProductDetails = () => {
           </button>
           <dialog id="my_modal_1" className="modal">
             <div className="modal-box">
-              <h3 className="font-bold text-lg">Hello!</h3>
-              
+              <h3 className="font-bold text-lg text-center">
+                Please Fill In Your Order Details
+              </h3>
+
               {/*  */}
 
-              <div className="max-w-md mx-auto mt-8 p-6 bg-white rounded-md shadow-md">
-                <form >
+              <div className="max-w-md mx-auto mt-3 p-6 bg-white rounded-md shadow-md">
+                <form>
                   <div className="mb-4">
                     <label
                       htmlFor="productName"
@@ -91,7 +93,7 @@ const ProductDetails = () => {
                       type="text"
                       id="productName"
                       className="w-full p-2 border rounded-md"
-                      // value={productName}
+                      value={products.productName}
                       // onChange={(e) => setProductName(e.target.value)}
                       required
                     />
@@ -106,6 +108,7 @@ const ProductDetails = () => {
                     <input
                       type="number"
                       id="quantity"
+                      placeholder="Enter Quantity in Kg."
                       className="w-full p-2 border rounded-md"
                       required
                     />
@@ -120,6 +123,7 @@ const ProductDetails = () => {
                     <input
                       type="number"
                       id="quantity"
+                      placeholder="Enter Phone number"
                       className="w-full p-2 border rounded-md"
                       required
                     />
@@ -133,18 +137,31 @@ const ProductDetails = () => {
                     </label>
                     <input
                       type="text"
+                      placeholder="Enter the Reference name if any."
                       id="refinanceName"
                       className="w-full p-2 border rounded-md"
                     />
                   </div>
-                  
+                  <div className="text-center">
+                    <button
+                      type="submit"
+                      className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-700"
+                    >
+                      Submit
+                    </button>
+                  </div>
                 </form>
               </div>
               {/*  */}
-              <div className="modal-action">
+              <div className="modal-action absolute top-0 right-5">
                 <form method="dialog">
                   {/* if there is a button in form, it will close the modal */}
-                  <button className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-700">Confirm Order</button>
+                  <button
+                    type="submit"
+                    className="px-3 py-1 rounded-full bg-black shadow-xl text-white hover:bg-slate-900 focus:outline-none focus:shadow-outline-blue font-bold hover:shadow-lg active:bg-green-500"
+                  >
+                    X
+                  </button>
                 </form>
               </div>
             </div>
