@@ -147,7 +147,7 @@ const ProductDetails = () => {
                       type="submit"
                       className="px-4 py-2 bg-blue-500 text-white rounded-md hover:bg-blue-600 focus:outline-none focus:shadow-outline-blue active:bg-blue-700"
                     >
-                      Submit
+                      Confirm Order
                     </button>
                   </div>
                 </form>
