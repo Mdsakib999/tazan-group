@@ -8,6 +8,7 @@ import SuccessStory from "../components/SuccessStory";
 import Error from "../components/Error";
 import Blog from "../components/Blog";
 import ProductDetails from "../components/ProductDetails";
+import Career from "../components/Career";
 
 
 
@@ -45,6 +46,10 @@ const router = createBrowserRouter([
           path: "/productDetails/:id",
           element: <ProductDetails></ProductDetails>,
           // loader:({params} ) => fetch(`data.json/viewDetails/${params.id}`)
+        },
+        {
+          path: "/career",
+          element: <Career></Career>,
         },
         
       ],
