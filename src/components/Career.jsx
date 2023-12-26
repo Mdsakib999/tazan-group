@@ -3,11 +3,11 @@ import React from "react";
 const Career = () => {
   return (
     <div>
-      <h1 className="mt-5 text-xl text-center font-semibold">
+      <h1 className="mt-5 text-xl text-center font-semibold lg:text-3xl ">
         Where passion <span className="font-bold text-green-600">Ignites</span>,
         Purpose guides
       </h1>
-      <h1 className="text-center font-semibold text-lg">
+      <h1 className="text-center font-semibold text-lg lg:text-3xl lg:mb-10">
         Discover your calling, Craft your professional journey.
       </h1>
 
