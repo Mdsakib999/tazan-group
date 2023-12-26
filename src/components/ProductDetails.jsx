@@ -28,7 +28,7 @@ const ProductDetails = () => {
             Name: {products.productName}
           </p>
           <p className="mb-2">
-            Composition:{" "}
+            Composition:
             <span className="font-semibold">{products.composition}</span>
           </p>
           <p className="mb-2">Dosage: {products.dosage}</p>
