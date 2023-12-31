@@ -31,11 +31,13 @@ const Career = () => {
 
       <h1 className="text-center mt-2 lg:mt-5 text-xl lg:text-4xl font-bold underline">Current Opening</h1>
 
-      <div className="w-[95%] lg:w-[85%] mt-3 lg:mt-7 px-2 py-2 lg:px-4 lg:py-3 mx-auto flex justify-between items-center bg-gray-100 rounded-lg mb-8 shadow-lg">
-        <p className="font-semibold text-base lg:text-xl">Marketing Officer</p>
-        <p className="hidden lg:block font-semibold text-base lg:text-xl">Mid Senior</p>
-        <p className="font-semibold text-base lg:text-xl">Last Date 30 Jan</p>
-        <p className="btn btn-warning">View Details</p>
+      <div className="w-[95%] lg:w-[85%] mt-3 lg:mt-7 px-2 py-2 lg:px-4 lg:py-4 mx-auto flex justify-between items-center bg-gray-100 rounded-lg mb-20 shadow-lg">
+        <p className="font-semibold text-base lg:text-2xl">Marketing Officer</p>
+        <p className="hidden lg:block font-semibold text-base lg:text-2xl">Mid Senior</p>
+        <p className="font-semibold text-base lg:text-2xl">Last Date 30 Jan</p>
+
+        <p className="px-3 lg:px-4 py-3 rounded-md
+          text-white lg:text-xl font-semibold bg-gradient-to-r from-green-600 to-lime-400 hover:from-lime-300 hover:to-green-600">View Details</p>
       </div>
 
     </div>
