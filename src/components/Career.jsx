@@ -19,23 +19,43 @@ const Career = () => {
         />
       </div>
 
-      <div className="bg-black text-white px-4 py-6 lg:py-8 shadow-lg">
-        <p className="font-bold text-xl text-center mb-4 lg:mb-7">
+      <div className="bg-black text-white px-4 py-6 lg:py-8 shadow-lg rounded-ss-2xl rounded-ee-2xl">
+        <p className="font-bold text-xl lg:text-2xl text-center mb-4 lg:mb-7">
           Why Should Join Us?
         </p>
         <div className="flex justify-evenly text-center font-semibold">
-          <p className="lg:flex-1 border-r-4 lg:text-xl">Competitive Salary</p>
-          <p className="lg:flex-1 border-r-4 lg:text-xl">Work-Life Balance</p>
-          <p className="lg:flex-1 border-r-4 lg:text-xl">Paid Time Off</p>
+          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">Competitive Salary</p>
+          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">Work-Life Balance</p>
+          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">Paid Time Off</p>
           <p className="lg:flex-1 lg:text-xl">Provident Fund</p>
         </div>
       </div>
 
-      <h1 className="text-center mt-2 lg:mt-8 text-xl lg:text-4xl font-bold underline">
+
+      <div>
+        <div>
+          <img src="" alt="" />
+          <p>Marketing and sales</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <p>Software & IT</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <p>Logistic & Legal</p>
+        </div>
+        <div>
+          <img src="" alt="" />
+          <p>Customer Service</p>
+        </div>
+      </div>
+
+      <h1 className="text-center mt-5 lg:mt-8 text-xl lg:text-4xl font-bold underline">
         Current Opening
       </h1>
 
-      <div className="w-[95%] lg:w-[85%] mt-3 lg:mt-7 px-2 py-2 lg:px-4 lg:py-4 mx-auto flex justify-between items-center bg-gray-100 rounded-lg mb-20 shadow-lg">
+      <div className="w-[95%] lg:w-[85%] mt-5 lg:mt-7 px-2 py-2 lg:px-4 lg:py-4 mx-auto flex justify-between items-center bg-gray-100 rounded-lg mb-20 shadow-lg hover:shadow-xl">
         <p className="font-semibold text-base lg:text-2xl">Marketing Officer</p>
         <p className="hidden lg:block font-semibold text-base lg:text-2xl">
           Mid Senior
