@@ -28,6 +28,8 @@ const Career = () => {
           <p >Provident Fund</p>
         </div>
       </div>
+
+      <h1 className="text-center mt-2 text-lg font-bold underline">Current Opening</h1>
     </div>
   );
 };
