@@ -1,4 +1,9 @@
 import React from "react";
+import { FaShippingFast } from "react-icons/fa";
+import { FaSellsy, FaLaptopCode } from "react-icons/fa";
+import { RiCustomerService2Fill } from "react-icons/ri";
+import { RiMoneyDollarCircleLine } from "react-icons/ri";
+import { SiWebmoney } from "react-icons/si";
 
 const Career = () => {
   return (
@@ -24,32 +29,47 @@ const Career = () => {
           Why Should Join Us?
         </p>
         <div className="flex justify-evenly text-center font-semibold">
-          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">Competitive Salary</p>
-          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">Work-Life Balance</p>
-          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">Paid Time Off</p>
+          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">
+            Competitive Salary
+          </p>
+          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">
+            Work-Life Balance
+          </p>
+          <p className="lg:flex-1 border-r-2 lg:border-r-4 lg:text-xl">
+            Paid Time Off
+          </p>
           <p className="lg:flex-1 lg:text-xl">Provident Fund</p>
         </div>
       </div>
 
-
-      <div>
-        <div>
-          <img src="" alt="" />
-          <p>Marketing and sales</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Software & IT</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Logistic & Legal</p>
-        </div>
-        <div>
-          <img src="" alt="" />
-          <p>Customer Service</p>
-        </div>
+      {/*  */}
+      <div className="b mt-10 grid grid-cols-3 gap-0">
+      <div className="b flex flex-col items-center justify-center py-10">
+        <FaSellsy size={60} />
+        <p>Marketing and Sales</p>
       </div>
+      <div className="flex flex-col items-center justify-center  p-4">
+        <FaLaptopCode size={24} />
+        <p>Software & IT</p>
+      </div>
+      <div className="flex flex-col items-center justify-center  p-4">
+        <FaShippingFast size={24} />
+        <p>Logistic & Legal</p>
+      </div>
+      <div className="flex flex-col items-center justify-center  p-4">
+        <RiCustomerService2Fill size={24} />
+        <p>Customer Service</p>
+      </div>
+      <div className="flex flex-col items-center justify-center  p-4">
+        <RiMoneyDollarCircleLine size={24} />
+        <p>Accounts & Finance</p>
+      </div>
+      <div className="flex flex-col items-center justify-center  p-4">
+        <SiWebmoney size={24} />
+        <p>Digital Marketing</p>
+      </div>
+    </div>
+      {/*  */}
 
       <h1 className="text-center mt-5 lg:mt-8 text-xl lg:text-4xl font-bold underline">
         Current Opening
@@ -69,8 +89,6 @@ const Career = () => {
           View Details
         </p>
       </div>
-
-
     </div>
   );
 };
