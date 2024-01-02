@@ -43,30 +43,30 @@ const Career = () => {
       </div>
 
       {/*  */}
-      <div className="b mt-10 grid grid-cols-3 gap-0">
-      <div className="b flex flex-col items-center justify-center py-10">
-        <FaSellsy size={60} />
-        <p>Marketing and Sales</p>
+      <div className=" mt-10 grid grid-cols-2 lg:grid-cols-3 gap-0">
+      <div className=" flex flex-col items-center justify-center py-12 hover:bg-slate-100 border-r-2 border-b-2">
+        <FaSellsy className="text-6xl" />
+        <p className="text-2xl font-semibold">Marketing and Sales</p>
       </div>
-      <div className="flex flex-col items-center justify-center  p-4">
-        <FaLaptopCode size={24} />
-        <p>Software & IT</p>
+      <div className="flex flex-col items-center justify-center py-12 border-r-2 border-b-2 hover:bg-slate-100">
+        <FaLaptopCode className="text-6xl" />
+        <p className="text-2xl font-semibold">Software & IT</p>
       </div>
-      <div className="flex flex-col items-center justify-center  p-4">
-        <FaShippingFast size={24} />
-        <p>Logistic & Legal</p>
+      <div className="flex flex-col items-center justify-center py-12 border-b-2 hover:bg-slate-100">
+        <FaShippingFast className="text-6xl" />
+        <p className="text-2xl font-semibold">Logistic & Legal</p>
       </div>
-      <div className="flex flex-col items-center justify-center  p-4">
-        <RiCustomerService2Fill size={24} />
-        <p>Customer Service</p>
+      <div className="flex flex-col items-center justify-center  py-12 border-r-2 hover:bg-slate-100">
+        <RiCustomerService2Fill className="text-6xl" />
+        <p className="text-2xl font-semibold">Customer Service</p>
       </div>
-      <div className="flex flex-col items-center justify-center  p-4">
-        <RiMoneyDollarCircleLine size={24} />
-        <p>Accounts & Finance</p>
+      <div className="flex flex-col items-center justify-center  py-12 border-r-2 hover:bg-slate-100">
+        <RiMoneyDollarCircleLine className="text-6xl" />
+        <p className="text-2xl font-semibold">Accounts & Finance</p>
       </div>
-      <div className="flex flex-col items-center justify-center  p-4">
-        <SiWebmoney size={24} />
-        <p>Digital Marketing</p>
+      <div className=" flex flex-col items-center justify-center  py-12 hover:bg-slate-100">
+        <SiWebmoney className="text-6xl" />
+        <p className="text-2xl font-semibold">Digital Marketing</p>
       </div>
     </div>
       {/*  */}
