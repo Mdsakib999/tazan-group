@@ -43,7 +43,7 @@ const Career = () => {
       </div>
 
       {/*  */}
-      <div className=" mt-10 grid grid-cols-2 lg:grid-cols-3 gap-0">
+      <div className=" my-20 grid grid-cols-2 lg:grid-cols-3 gap-0">
       <div className=" flex flex-col items-center justify-center py-12 hover:bg-slate-100 border-r-2 border-b-2">
         <FaSellsy className="text-6xl" />
         <p className="text-2xl font-semibold">Marketing and Sales</p>
@@ -52,7 +52,7 @@ const Career = () => {
         <FaLaptopCode className="text-6xl" />
         <p className="text-2xl font-semibold">Software & IT</p>
       </div>
-      <div className="flex flex-col items-center justify-center py-12 border-b-2 hover:bg-slate-100">
+      <div className="flex flex-col items-center justify-center py-12 border-b-2 border-r-2 lg:border-r-0 hover:bg-slate-100">
         <FaShippingFast className="text-6xl" />
         <p className="text-2xl font-semibold">Logistic & Legal</p>
       </div>
@@ -69,13 +69,13 @@ const Career = () => {
         <p className="text-2xl font-semibold">Digital Marketing</p>
       </div>
     </div>
-      {/*  */}
+      
 
       <h1 className="text-center mt-5 lg:mt-8 text-xl lg:text-4xl font-bold underline">
         Current Opening
       </h1>
 
-      <div className="w-[95%] lg:w-[85%] mt-5 lg:mt-7 px-2 py-2 lg:px-4 lg:py-4 mx-auto flex justify-between items-center bg-gray-100 rounded-lg mb-20 shadow-lg hover:shadow-xl">
+      <div className="w-[95%] lg:w-[85%] mt-5 lg:mt-9 px-2 py-2 lg:px-4 lg:py-4 mx-auto flex justify-between items-center bg-slate-100 rounded-lg mb-20 shadow-lg hover:shadow-xl">
         <p className="font-semibold text-base lg:text-2xl">Marketing Officer</p>
         <p className="hidden lg:block font-semibold text-base lg:text-2xl">
           Mid Senior
