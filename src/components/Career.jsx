@@ -76,7 +76,7 @@ const Career = () => {
       </h1>
 
       <div className="w-[95%] lg:w-[85%] mt-5 lg:mt-9 px-2 py-2 lg:px-4 lg:py-4 mx-auto flex justify-between items-center bg-slate-100 rounded-lg mb-20 shadow-lg hover:shadow-xl">
-        <p className="font-semibold text-base lg:text-2xl">Marketing Officer</p>
+        <p className="font-bold text-base lg:text-2xl">Marketing Officer</p>
         <p className="hidden lg:block font-semibold text-base lg:text-2xl">
           Mid Senior
         </p>

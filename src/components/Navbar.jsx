@@ -113,7 +113,7 @@ const Navbar = () => {
             </details>
           </li>
           <li>
-            <Link to="/success">Success </Link>
+            <Link to="/career" className="">Career</Link>
           </li>
           <li>
             <Link to="/blog">Blog</Link>
