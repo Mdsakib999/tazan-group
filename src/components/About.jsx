@@ -51,14 +51,14 @@ const About = () => {
       </div>
 
       <div>
-        <div className="flex items-center justify-center gap-4">
+        <div className="b flex items-center justify-center gap-4">
           <div className=" w-[50%]">
             <h1 className="font-semibold text-4xl mb-3">Our Mission</h1>
-            <p>
+            <p className="text-lg">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
               ullam praesentium sunt at, aliquid voluptates enim alias cumque
               blanditiis dicta veniam incidunt, molestiae voluptatibus labore
-              ratione! Ea beatae aut tenetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque impedit deserunt velit adipisci dolor natus. Asperiores aliquid quae harum, aliquam unde quis totam numquam quod maxime, nihil, cumque error eveniet?
+              ratione! Ea beatae aut tenetur! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Neque impedit deserunt velit adipisci dolor natus. Asperiores aliquid quae harum?
             </p>
           </div>
 
@@ -72,14 +72,14 @@ const About = () => {
         </div>
       </div>
 
-      <div className=" flex items-center justify-center gap-4">
+      <div className="b flex items-center justify-center gap-4">
         <div className=" w-[50%]">
           <img className="w-full h-[360px]" src="https://i.ibb.co/m6f1pyS/vision-tazan.jpg" alt="vision pic" />
         </div>
 
         <div className=" w-[50%]">
         <h1 className="font-semibold text-4xl mb-3">Our Vision</h1>
-        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum itaque molestiae earum quisquam, sapiente dolores nostrum voluptates amet quos. Adipisci soluta dicta et. Odit cupiditate asperiores repellat explicabo at voluptatibus omnis eius nam unde vero neque pariatur esse, placeat reprehenderit minus excepturi ad mollitia nostrum ratione ipsam recusandae. Placeat, vitae.</p>
+        <p className="text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum itaque molestiae earum quisquam, sapiente dolores nostrum voluptates amet quos. Adipisci soluta dicta et. Odit cupiditate asperiores repellat explicabo at voluptatibus omnis eius nam unde vero neque pariatur esse, placeat reprehenderit minus excepturi ad mollitia nostrum ratione ipsam recusandae. Placeat, vitae. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       </div>
 
