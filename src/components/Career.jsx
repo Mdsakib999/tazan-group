@@ -66,7 +66,7 @@ const Career = () => {
       </div>
       <div className=" flex flex-col items-center justify-center  py-5 lg:py-12 hover:bg-slate-100">
         <SiWebmoney className="text-5xl lg:text-6xl" />
-        <p className="text-xl lg:text-2xl font-semibold">Digital Marketing</p>
+        <p className="text-xl lg:text-2xl font-semibold">Online Marketing</p>
       </div>
     </div>
       
