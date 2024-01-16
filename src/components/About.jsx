@@ -13,6 +13,8 @@ import { EffectCards } from "swiper/modules";
 const About = () => {
   return (
     <div>
+
+      {/* Swip and about */}
       <div className="flex items-center">
         <div className="">
           <h1>About Tazan Group</h1>
@@ -46,15 +48,17 @@ const About = () => {
         </Swiper>
       </div>
 
+      {/* Journey Timeline */}
       <div>
         <h1>Our Journey</h1>
       </div>
 
+      {/* Mission & Vision */}
       <div className="px-3 shadow-lg rounded-md">
         <div className=" flex items-center justify-center gap-4">
           <div className=" w-[50%]">
-            <h1 className="font-semibold text-4xl mb-3">Our Mission</h1>
-            <p className="text-lg">
+            <h1 className="font-semibold text-4xl mb-3 text-center">Our Mission</h1>
+            <p className="text-lg text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
               ullam praesentium sunt at, aliquid voluptates enim alias cumque
               blanditiis dicta veniam incidunt, molestiae voluptatibus labore
@@ -72,24 +76,24 @@ const About = () => {
         </div>
 
 
-        <div className="flex items-center justify-center gap-4">
+        <div className="flex items-center justify-center gap-1">
         <div className=" w-[50%]">
           <img className="w-full h-[360px]" src="https://i.ibb.co/m6f1pyS/vision-tazan.jpg" alt="vision pic" />
         </div>
 
         <div className=" w-[50%]">
-        <h1 className="font-semibold text-4xl mb-3">Our Vision</h1>
-        <p className="text-lg">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum itaque molestiae earum quisquam, sapiente dolores nostrum voluptates amet quos. Adipisci soluta dicta et. Odit cupiditate asperiores repellat explicabo at voluptatibus omnis eius nam unde vero neque pariatur esse, placeat reprehenderit minus excepturi ad mollitia nostrum ratione ipsam recusandae. Placeat, vitae. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <h1 className="font-semibold text-4xl mb-3 text-center">Our Vision</h1>
+        <p className="text-lg text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eum itaque molestiae earum quisquam, sapiente dolores nostrum voluptates amet quos. Adipisci soluta dicta et. Odit cupiditate asperiores repellat explicabo at voluptatibus omnis eius nam unde vero neque pariatur esse, placeat reprehenderit minus excepturi ad mollitia nostrum ratione ipsam recusandae. Placeat, vitae. Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>
       </div>
       </div>
       </div>
 
-      
-
+      {/* Photo gallery */}
       <div>
         <h1>Photo Gallery</h1>
       </div>
 
+      {/* MD & Chairman Talks */}
       <div>
         <h1>Chairman Talks</h1>
       </div>

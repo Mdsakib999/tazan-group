@@ -12,7 +12,7 @@ import HomeProduct from "./HomeProduct";
 import CustomerFeedback from "./CustomerFeedback";
 import Partner from "./Partner";
 import Faq from "./Faq";
-import ContactUs from "./ContactUs";
+import HomeContact from "./HomeContact";
 
 const Home = () => {
   return (
@@ -109,7 +109,7 @@ const Home = () => {
 
       {/* Contact section */}
       <div>
-        <ContactUs></ContactUs>
+       <HomeContact></HomeContact>
       </div>
     </div>
   );
