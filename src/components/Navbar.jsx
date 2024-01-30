@@ -163,7 +163,7 @@ const Navbar = () => {
                         <div class="grid grid-cols-2 gap-6">
                           <div>
                             <p class="uppercase tracking-wider text-gray-500 font-medium text-[13px]">
-                              The Suite
+                              Sister Concern
                             </p>
                             <ul class="mt-3 text-[15px]">
                               <li>
@@ -171,9 +171,9 @@ const Navbar = () => {
                                   href="#"
                                   class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
                                 >
-                                  Course Editor
+                                  Tazan Agro Ltd.
                                   <p class="text-gray-500 font-normal">
-                                    All-in-one editor
+                                    Quality you cna trust.
                                   </p>
                                 </a>
                               </li>
@@ -182,7 +182,7 @@ const Navbar = () => {
                                   href="#"
                                   class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
                                 >
-                                  Accept payments
+                                  Farhana Enterprise
                                   <p class="text-gray-500 font-normal">
                                     Pre-build payments page
                                   </p>
@@ -193,12 +193,24 @@ const Navbar = () => {
                                   href="#"
                                   class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
                                 >
-                                  Closed Captioning
+                                  Tazan Organic Meat Ltd.
                                   <p class="text-gray-500 font-normal">
-                                    Use AI to generate captions
+                                  Quality you cna trust.
                                   </p>
                                 </a>
                               </li>
+                              <li>
+                                <a
+                                  href="#"
+                                  class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                >
+                                  Tazan Agro Enterprise.
+                                  <p class="text-gray-500 font-normal">
+                                  Quality you cna trust.
+                                  </p>
+                                </a>
+                              </li>
+
                             </ul>
                           </div>
                           <div>
@@ -211,9 +223,9 @@ const Navbar = () => {
                                   href="#"
                                   class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
                                 >
-                                  Plugins
+                                  Tazan Feeds Ltd.
                                   <p class="text-gray-500 font-normal">
-                                    Tweak existing functionality
+                                  Quality you cna trust.
                                   </p>
                                 </a>
                               </li>
@@ -222,7 +234,7 @@ const Navbar = () => {
                                   href="#"
                                   class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
                                 >
-                                  Batch uploads
+                                  Tazan Eco Resort
                                   <p class="text-gray-500 font-normal">
                                     Get your time back
                                   </p>
@@ -233,12 +245,24 @@ const Navbar = () => {
                                   href="#"
                                   class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
                                 >
-                                  Social sharing
+                                  Tazan Properties Ltd.
                                   <p class="text-gray-500 font-normal">
                                     Generate content for socials
                                   </p>
                                 </a>
                               </li>
+                              <li>
+                                <a
+                                  href="#"
+                                  class="block p-2 -mx-2 rounded-lg hover:bg-gradient-to-br hover:from-indigo-50 hover:to-pink-50 hover:via-blue-50 transition ease-in-out duration-300 text-gray-800 font-semibold hover:text-indigo-600"
+                                >
+                                  Tazan Fishers Ltd.
+                                  <p class="text-gray-500 font-normal">
+                                    Generate content for Market.
+                                  </p>
+                                </a>
+                              </li>
+
                             </ul>
                           </div>
                         </div>
