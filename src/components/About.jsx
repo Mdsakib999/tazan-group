@@ -136,7 +136,8 @@ const About = () => {
 
       {/* Photo gallery || A quick brown */}
       <div>
-        <h1 className="">Photo Gallery</h1>
+        <h1 className="text-4xl font-bold mt-12 text-center mb-2">Photo Gallery</h1>
+        <p className="text-xl text-center mb-5">--- Some Special Monents of Tazan Family ---</p>
 
         <div>
           {/* Photo Grid */}
