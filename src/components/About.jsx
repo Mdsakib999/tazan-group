@@ -42,10 +42,10 @@ const About = () => {
   return (
     <div>
       {/* Swip and about */}
-      <div className="flex items-center">
-        <div className="">
+      <div className="flex items-center b">
+        <div className="b">
           <h1 className="font-semibold text-2xl ">About Tazan Group</h1>
-          <p>
+          <p className="text-lg">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
             quaerat sit impedit, rerum enim, aliquid mollitia sed nostrum odit
             Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus
@@ -59,7 +59,7 @@ const About = () => {
           effect={"cards"}
           grabCursor={true}
           modules={[EffectCards]}
-          className="mySwiper"
+          className="mySwiper b"
         >
           <SwiperSlide>
             <img className="" src="" alt="" />
